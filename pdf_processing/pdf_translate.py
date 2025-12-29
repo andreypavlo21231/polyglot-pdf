@@ -92,7 +92,7 @@ def gpt_translate_image(image_path: str,target_lang: str, open_ai_token: str) ->
     import requests 
     import base64
     
-    edit_url = "https://api.artemox.com/v1/images/edits"
+    edit_url = "https://api.openai.com/v1/images/edits"
     headers = { 
     "Authorization": f"Bearer {open_ai_token}"
     } 
