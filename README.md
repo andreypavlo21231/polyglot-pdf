@@ -213,7 +213,6 @@ streamlit run app/main.py
 ### Image Translation model selection
 - **ocr+GoogleTranslator**: Best for skanned images, or images with high quality chars resolution
 - **GPT**: Used for translate in cases, where ocr have no idea how to work with text. Works slightly faster, but requires OpenAI API KEY, and results have char artifacts
-- 
 <img width="498" height="498" alt="image" src="https://github.com/user-attachments/assets/1d2e337e-5590-4f10-a035-cd1cb479b33f" /><img width="498" height="498" alt="image" src="https://github.com/user-attachments/assets/383f783b-dd4c-4e86-9b31-e5c7826cdf0e" />
 
 
